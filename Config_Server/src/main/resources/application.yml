@@ -1,0 +1,20 @@
+spring :
+     application :
+          name : config-server
+     
+     cloud:
+          config :
+               server:
+                    git:
+                         uri : ${CONFIG_REPO_URL:https://github.com/ajguerrerop/Spring_Cloud_Config_Store}
+                         clone-on-start : true
+     security:
+          user:
+               name : root 
+               password : s3cr3t
+     
+
+server :
+     port : 8888
+
+
