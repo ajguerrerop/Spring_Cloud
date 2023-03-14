@@ -33,7 +33,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+		<dependency>
+    		<groupId>org.springdoc</groupId>
+    		<artifactId>springdoc-openapi-ui</artifactId>
+    		<version>1.6.4</version>
+		</dependency>
 		<!--  Needed for latest version of Spring Boot  for Bootstraping -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
