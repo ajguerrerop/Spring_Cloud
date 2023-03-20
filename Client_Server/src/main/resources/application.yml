@@ -1,0 +1,7 @@
+springdoc :
+# Redirects openapi to api-docs URL
+  api-docs : 
+    path : /api-docs
+
+  # Redirects swagger to this html.
+  swagger-ui.path : /swagger-ui-custom.html
